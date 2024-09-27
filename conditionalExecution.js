@@ -26,3 +26,15 @@ console.log();
 
 // Switch Statement
 console.log('Switch Statement');
+var gender = "F";
+
+switch(gender){
+    case "M":
+        console.log("Male");
+        break;
+    case "F":
+        console.log("Female");
+        break;
+    default:
+        console.log(Unkown);
+}
